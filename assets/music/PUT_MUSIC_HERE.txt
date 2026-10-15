@@ -1,0 +1,2 @@
+Place the chosen music file here as our-song.mp3, or change musicPath in config.js.
+The website only provides play/pause; it does not offer a visitor upload control.
