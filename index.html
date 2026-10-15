@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#b7d4ec"><title>Our Anniversary Scrapbook ♡</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="stage">
+  <div class="ambient-decor" aria-hidden="true">
+    <span class="ambient-flower ambient-flower-left">✿</span>
+    <span class="ambient-flower ambient-flower-right">✿</span>
+    <span class="ambient-teddy">🧸</span>
+    <span class="ambient-petal ambient-petal-one">✿</span>
+    <span class="ambient-petal ambient-petal-two">✾</span>
+  </div>
+  <div class="book-shell" id="bookShell" aria-live="polite">
+    <div class="paper-stack"></div>
+    <section class="page cover-page active" data-page="0" aria-label="Scrapbook cover">
+      <div class="gingham-corner corner-tl"></div><div class="gingham-corner corner-br"></div>
+      <div class="cover-paper graph-paper">
+        <span class="bow bow-top">🎀</span><span class="tiny-flower flower-left">✿</span>
+        <div class="cover-title" id="coverTitle">I made something<br>for you ♡</div>
+        <div class="cover-question" id="coverQuestion">Do you want to see it?</div>
+        <div class="cover-buttons"><button class="yes-button" id="openBook">YES ♡</button><button class="no-button" id="noButton">NO 🙈</button></div>
+        <div class="teddy" aria-hidden="true">🧸</div><span class="blue-flower flower-right">✿</span>
+      </div>
+      <div class="cover-ribbon">OUR LITTLE SCRAPBOOK</div>
+    </section>
+    <section class="page" data-page="1" aria-label="Anniversary title page">
+      <div class="torn-paper graph-paper title-sheet"><span class="bow bow-right">🎀</span><span class="sticker star-one">✦</span><span class="sticker star-two">✧</span>
+        <p class="tiny-label">A LITTLE BOOK ABOUT US</p><h1 class="cutout-title" id="anniversaryHeading">Happy <span>2nd</span><br>Anniversary</h1>
+        <div class="paper-tape tape-one"></div><div class="paper-tape tape-two"></div><div class="blue-sprig">✿ ❀ ✿</div><p class="script-line" id="anniversarySubheading">A little book about us ♡</p>
+      </div>
+    </section>
+    <section class="page" data-page="2" aria-label="Photo collage page">
+      <div class="torn-paper collage-sheet camera-collage">
+        <div class="gingham-fabric fabric-left"></div><div class="gingham-fabric fabric-right"></div>
+        <div class="camera-art" aria-label="Vintage instant camera illustration">
+          <div class="camera-topline"></div><div class="camera-brand">Canon</div><div class="camera-lens"><span></span></div><div class="camera-flash"></div><div class="camera-screen"><img data-photo="collageOne" alt="Couple photo displayed in the camera"></div><div class="camera-controls"><i></i><i></i><i></i><i></i></div><div class="camera-bottom">ZOOM · AUTO</div>
+        </div>
+        <div class="right-memory-strip">
+          <div class="tiny-memory memory-a"><img data-photo="collageTwo" alt="Couple memory"><span data-caption="collageTwo">my favourite smile</span></div>
+          <div class="tiny-memory memory-b"><img data-photo="collageThree" alt="Couple memory"><span data-caption="collageThree">little moments</span></div>
+          <div class="tiny-memory memory-c"><img data-photo="collageFour" alt="Couple memory"><span data-caption="collageFour">always us</span></div>
+          <div class="film-note">our favourite days</div>
+        </div>
+        <div class="denim-pocket"><div class="pocket-stitch"></div><span class="pocket-star big">★</span><span class="pocket-star small-one">☆</span><span class="pocket-star small-two">★</span><div class="earbuds"><span></span><span></span><i></i></div></div>
+        <div class="love-cutouts" id="loveHeading">L<span>O</span>V<span>E</span></div><span class="sticker star-three">✧</span><span class="sticker flower-sticker">✿</span><span class="collage-bow">🎀</span>
+      </div>
+    </section>
+    <section class="page" data-page="3" aria-label="Love letter page">
+      <div class="letter-scene graph-paper"><div class="letter-bow">🎀</div>
+        <div class="envelope-cover" id="envelopeCover" aria-label="Closed envelope containing a love letter"><div class="envelope-back"></div><div class="envelope-letter-peek">A little note for you ♡</div><div class="envelope-front"></div><div class="envelope-flap"></div><div class="envelope-seal">♡</div><p class="envelope-label">TO MY FAVOURITE PERSON</p></div>
+        <article class="letter-card" id="letterCard"><div class="lace-border"></div><div class="letter-content"><div class="seal">♡</div><p class="letter-to" id="letterGreeting">To my favourite person,</p><p class="letter-body" id="letterBody"></p><p class="letter-signoff" id="letterSignoff">Always yours ♡</p></div></article><span class="flower-sticker letter-flower">✿</span><span class="sticker letter-heart">♥</span></div>
+      <button class="unfold-button" id="unfoldLetter">OPEN THE ENVELOPE ♡</button>
+    </section>
+    <section class="page" data-page="4" aria-label="My constant forever page">
+      <div class="torn-paper minimal-sheet constant-sheet"><div class="gingham-fabric constant-check-left"></div><div class="gingham-fabric constant-check-right"></div><div class="hanging-string"></div>
+        <div class="hanging-memory hanging-one"><span class="pin"></span><div class="polaroid"><img data-photo="constantOne" alt="Couple memory from the first year"><span data-caption="constantOne">the beginning ♡</span></div><small data-year="yearOne">2024</small></div>
+        <div class="hanging-memory hanging-two"><span class="pin"></span><div class="polaroid"><img data-photo="constantTwo" alt="Couple memory from the second year"><span data-caption="constantTwo">my favourite person</span></div><small data-year="yearTwo">2025</small></div>
+        <div class="hanging-memory hanging-three"><span class="pin"></span><div class="polaroid"><img data-photo="constantThree" alt="Recent couple memory"><span data-caption="constantThree">still choosing you ♡</span></div><small data-year="yearThree">2026</small></div>
+        <span class="constant-flower flower-one">✿</span><span class="constant-flower flower-two">✿</span><p class="constant-caption" id="constantCaption">My Constant Forever</p><span class="bow constant-bow">🎀</span></div>
+    </section>
+    <section class="page" data-page="5" aria-label="Togetherness page">
+      <div class="torn-paper together-sheet"><div class="together-photo t-photo-one polaroid"><img data-photo="togetherOne" alt="Togetherness memory"><span>my person ♡</span></div><div class="together-photo t-photo-two polaroid"><img data-photo="togetherTwo" alt="Togetherness memory"><span>my forever</span></div><h2 id="togethernessHeading">2 YEARS OF<br>TOGETHERNESS</h2><div class="blue-flower bottom-flower">✿</div><div class="paper-tape tape-three"></div></div>
+    </section>
+    <section class="page" data-page="6" aria-label="Calendar memory page">
+      <div class="torn-paper calendar-sheet"><div class="calendar-paper"><div class="calendar-top"><span id="calendarMonth">September</span><span id="calendarYear">2026</span></div><div class="calendar-grid" id="calendarGrid"></div><div class="calendar-note" id="calendarHeading">The month our memories live in ♡</div></div><div class="calendar-photo polaroid"><img data-photo="calendar" alt="Calendar memory photograph"><span>a date to remember</span></div><span class="bow calendar-bow">🎀</span><span class="sticker calendar-star">✦</span></div>
+    </section>
+    <section class="page" data-page="7" aria-label="You and me final page">
+      <div class="torn-paper final-sheet"><span class="bow final-bow">🎀</span><span class="blue-flower final-flower">✿</span><div class="final-photo polaroid"><img data-photo="final" alt="Favourite photograph"><span data-caption="final">you & me, always</span></div><h2 class="you-me" id="finalHeading">You <span>&</span> Me</h2><p class="final-message" id="finalMessage">My favourite place will always be beside you. ♡</p><button class="restart-button" id="restartBook">READ AGAIN ↻</button></div>
+    </section>
+  </div>
+  <div class="navigation" id="navigation"><button id="prevPage" class="nav-button" aria-label="Previous page">← BACK</button><div class="progress" id="progress" aria-label="Scrapbook pages"></div><button id="nextPage" class="nav-button">NEXT PAGE →</button></div>
+  <div class="page-count" id="pageCount">COVER · 01/07</div>
+</div>
+<div class="music-control"><audio id="backgroundMusic" preload="none" loop></audio><button id="musicToggle" aria-label="Play music"><span id="musicIcon">♫</span><span id="musicLabel">Play music</span></button></div>
+<div class="toast" id="toast" role="status"></div>
+<script src="config.js"></script><script src="script.js"></script>
+</body></html>

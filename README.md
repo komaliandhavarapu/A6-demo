@@ -16,11 +16,11 @@ The love-letter page now displays a closed envelope from the start. Tap “OPEN 
 
 ## Controls
 
-- Tap YES on the cover to open the book.
+- Tap YES on the cover to open the book and start the background music.
 - Use Previous/Next or the page dots to navigate.
 - Swipe left/right on mobile; use keyboard arrows on desktop.
 - Tap “OPEN THE LETTER” on the letter page.
-- Persistent play/pause button remains available on every page. Browsers generally require the visitor to click to begin playback.
+- A persistent play/pause button remains available on every page. If the browser blocks playback or the audio file cannot be loaded, use this button to try again.
 
 ## Notes
 
